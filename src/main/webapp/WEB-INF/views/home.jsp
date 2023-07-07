@@ -7,7 +7,8 @@
 </head>
 <body>
 <div class="container">
-    <h2>Welcome, ${name}!</h2>
+    <h2>Welcome, ${name} ! ${requestScope.name}
+    </h2>
 </div>
 </body>
 </html>
